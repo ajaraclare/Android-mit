@@ -125,6 +125,8 @@ fun LoginScreen(){
 //            shape = RoundedCornerShape(12.dp),
             shape = CutCornerShape(10),
             colors = ButtonDefaults.buttonColors(Color.Magenta)
+
+
         ) {
             Text(text = "Login")
             

@@ -56,21 +56,46 @@ fun Mit(){
         Button(onClick = {
             login.startActivity(Intent(login,LoginActivity::class.java))
 
-
-        }) {
+            }) {
             Text(text = "Login Here")
             
         }
+
+
+
 
         val photo = LocalContext.current
         Button(onClick = {
             photo.startActivity(Intent(photo,ImageActivity::class.java))
 
-
-        }) {
+            }) {
             Text(text = "Add an Image")
 
         }
+
+        val prac = LocalContext.current
+        Button(onClick = {
+            prac.startActivity(Intent(prac,PractiseActivity::class.java))
+
+        }) {
+            Text(text = "Practise")
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
