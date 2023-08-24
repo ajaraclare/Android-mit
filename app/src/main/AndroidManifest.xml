@@ -13,6 +13,16 @@
         android:theme="@style/Theme.Mit"
         tools:targetApi="31">
         <activity
+            android:name=".ScrollActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scroll"
+            android:theme="@style/Theme.Mit" />
+        <activity
+            android:name=".CardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_card"
+            android:theme="@style/Theme.Mit" />
+        <activity
             android:name=".PractiseActivity"
             android:exported="false"
             android:label="@string/title_activity_practise"

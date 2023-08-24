@@ -3,4 +3,6 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_image">ImageActivity</string>
     <string name="title_activity_practise">PractiseActivity</string>
+    <string name="title_activity_card">CardActivity</string>
+    <string name="title_activity_scroll">ScrollActivity</string>
 </resources>
