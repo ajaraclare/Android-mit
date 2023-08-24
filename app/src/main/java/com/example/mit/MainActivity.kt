@@ -104,6 +104,15 @@ fun Mit(){
 
         }
 
+        val assignment = LocalContext.current
+        Button(onClick = {
+            assignment.startActivity(Intent(assignment,AssignmentActivity ::class.java))
+
+        }) {
+            Text(text = "Assignment")
+
+        }
+
 
 
 
