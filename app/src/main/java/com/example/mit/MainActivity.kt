@@ -113,13 +113,23 @@ fun Mit(){
 
         }
 
+        val scaff = LocalContext.current
+        Button(onClick = {
+            scaff.startActivity(Intent(scaff,BottomActivity ::class.java))
 
+        }) {
+            Text(text = "Scaffold")
 
+        }
 
+        val discuss = LocalContext.current
+        Button(onClick = {
+            discuss.startActivity(Intent(discuss,DiscussActivity ::class.java))
 
+        }) {
+            Text(text = "Discussion")
 
-
-
+        }
 
 
 
